@@ -37,8 +37,8 @@ const BarChart = () => {
           {
             label: 'Monto Vendido (dia) Bs',
             data: [80, 20, 10, 100, 20, 25, 75],
-            borderColor: '#00D1FF',
-            backgroundColor: '#00D1FF',
+            borderColor: '#00FF85',
+            backgroundColor: '#00FF85',
           },
         ]
       });
@@ -49,8 +49,8 @@ const BarChart = () => {
           {
             label: 'Monto Vendido (Hora) Bs',
             data: Array.from({ length: 24 }, () => Math.floor(Math.random() * 100)),
-            borderColor: '#00D1FF',
-            backgroundColor: '#00D1FF',
+            borderColor: '#00FF85',
+            backgroundColor: '#00FF85',
           },
         ]
       });

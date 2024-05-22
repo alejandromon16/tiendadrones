@@ -126,7 +126,7 @@ export default function Home() {
             />
           </FormControl>
           <Button
-            colorScheme="cyan"
+            colorScheme="green"
             width="full"
             isLoading={loading}
             type="submit"

@@ -18,11 +18,11 @@ export default function Layout({ children }: { children: ReactNode }) {
   }
 
   return (
-    <>
+    <div className="flex bg-gray-100 flex-1">
       <NavBar role={role} />
-      <div className="pt-40 mx-56 pb-80">
+      <div className="pt-10 ml-80 w-full h-full">
         {children}
       </div>
-    </>
+    </div>
   );
 }

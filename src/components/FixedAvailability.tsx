@@ -22,7 +22,7 @@ const timeRanges = {
 const HourCard = ({ value, onChange, isChecked }) => {
   return (
     <Box as="label">
-      <Checkbox colorScheme="yellow" isChecked={isChecked} onChange={onChange} value={value}>
+      <Checkbox colorScheme="green" isChecked={isChecked} onChange={onChange} value={value}>
         <Box
           cursor="pointer"
           borderWidth="1px"

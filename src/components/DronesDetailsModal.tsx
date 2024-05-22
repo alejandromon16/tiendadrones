@@ -120,7 +120,7 @@ const ParkingDetailsModal = ({ isOpen, onClose, parking }) => {
           </Flex>
         </ModalBody>
         <ModalFooter>
-          <Button colorScheme="yellow" mr={3} onClick={onClose}>
+          <Button colorScheme="green" mr={3} onClick={onClose}>
             Close
           </Button>
         </ModalFooter>

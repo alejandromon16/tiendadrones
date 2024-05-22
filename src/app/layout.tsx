@@ -1,12 +1,12 @@
 
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter,Outfit } from 'next/font/google'
+import { Inter } from 'next/font/google'
 // import NavBar from '@/components/NavBar'
 import { Providers } from '@/providers/chakra.provider'
 
 
-const outfit = Outfit({ subsets: ['latin'] })
+const outfit = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',

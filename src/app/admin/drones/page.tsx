@@ -98,7 +98,7 @@ const Drones = () => {
       <div className="flex justify-between items-center px-5 py-5">
         <h1 className="text-xl font-bold">Drones</h1>
         {role === 'provider' && (
-          <Button onClick={handleAddNewDrones} colorScheme="yellow">
+          <Button onClick={handleAddNewDrones} colorScheme="green">
             Agregar Nuevo Drone
           </Button>
         )}

@@ -19,7 +19,7 @@ const ReservationModal = ({ reservation, isOpen, onClose }) => {
             <Text><strong>Modelo de Vehiculo:</strong> {reservation.vehicle.model}</Text>
           </ModalBody>
           <ModalFooter>
-            <Button colorScheme="cyan" mr={3} onClick={onClose}>
+            <Button colorScheme="green" mr={3} onClick={onClose}>
               Close
             </Button>
           </ModalFooter>
